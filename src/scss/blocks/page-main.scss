@@ -1,0 +1,132 @@
+.page-main__block {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 20px;
+  box-shadow: 1px 1px 10px rgba(122,122,122,0.5);
+  margin: 0 20px 20px;
+}
+
+.block__title {
+  font-family: "Merriweather", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  text-shadow: 2px 3px 5px rgba(122,122,122,0.5);
+}
+.block__description {
+  font-size: 12px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+
+.block__button {
+  font-family: "Merriweather", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f78065;
+  width: 120px;
+  height: 26px;
+  padding-left: 10px;
+  color: #ffffff;
+  background-image: url(../images/icon/world.svg);
+  background-repeat: no-repeat;
+  background-size: 30px 20px;
+}
+
+.page-main__advantages__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-main__advantages__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 20px;
+}
+
+.advantages__block__item {
+  height: 160px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.advantages__block__title {
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.advantages__block__description {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+
+.advantages__block__footer {
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #f78065;
+}
+
+.page-main__opportunities {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0;
+}
+
+.opportunities__title {
+  font-size: 20px;
+  font-family: "Merriweather", sans-serif;
+  margin-bottom: 20px;
+}
+
+.opportunities__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opportunities__block:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.opportunities__block:last-child{
+  margin-bottom: 52px;
+}
+
+.opportunities__block__title {
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.opportunities__block__description {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  opacity: 50%;
+  text-align: center;
+}
+
+.opportunities__item {
+  height: 48px;
+  width: 48px;
+  margin-bottom: 10px;
+}
+
+.opportunities__link {
+  font-family: "Merriweather", sans-serif;
+  text-decoration: none;
+  color: #f78065;
+}
