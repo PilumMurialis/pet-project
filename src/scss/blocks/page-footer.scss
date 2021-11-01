@@ -50,6 +50,11 @@
   text-decoration: none;
   opacity: 50%;
   color: #000000;
+  transition: 0.11s ease;
+}
+
+.block__link__item:hover {
+   opacity: 90%;
 }
 
 .wrapper {
@@ -89,4 +94,9 @@
   opacity: 50%;
   font-size: 14px;
   margin-bottom: 20px;
+  transition: 0.11s ease;
+}
+
+.copyright__link__item:hover {
+  opacity: 90%;
 }

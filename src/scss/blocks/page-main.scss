@@ -27,15 +27,20 @@
   box-sizing: border-box;
   border: none;
   background-color: #f78065;
-  width: 120px;
-  height: 26px;
-  padding-left: 10px;
+  height:40px;
+  width: 200px;
   color: #ffffff;
   background-image: url(../images/icon/world.svg);
   background-repeat: no-repeat;
   background-size: 16px 20px;
-  background-position: 14px 2.6px;
+  background-position: 52px 10px;
   cursor: pointer;
+  transition: 0.11s ease-in;
+}
+
+.block__button:hover {
+  transform: scale(1.02);
+  background-color: #000000;
 }
 
 .page-main__advantages {
@@ -136,6 +141,13 @@
   font-family: "Merriweather", sans-serif;
   text-decoration: none;
   color: #f78065;
+  transition: 0.11s ease;
+}
+
+.opportunities__link:hover{
+  background-color: #000000;
+  padding: 10px 20px 10px;
+  color: #ffffff;
 }
 
 .page-main__community {
@@ -177,6 +189,12 @@
   background-repeat: no-repeat;
   background-size: 10px 10px;
   background-position: 54px 14px;
+  transition: 0.11s ease;
+}
+
+.community__block__button:hover {
+  transform: scale(1.05);
+  background-color: #000000;
 }
 
 .page-main__community__page {
@@ -210,6 +228,13 @@
     font-family: "Merriweather", sans-serif;
     text-decoration: none;
     color: #f78065;
+    transition: 0.11s ease;
+}
+
+.link__item:hover {
+  background-color: #000000;
+  padding: 10px 20px 10px;
+  color: #ffffff;
 }
 
 .page-advantages__wrapper__title {
